@@ -58,11 +58,11 @@ namespace Challenge3.API
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "67203917765-gm8akab3jmbilk9b9q98ifvuuh04djbn.apps.googleusercontent.com",
+                ClientSecret = "Hb4OpAGRQccbWnEg56vthqhM"
+            });
         }
     }
 }

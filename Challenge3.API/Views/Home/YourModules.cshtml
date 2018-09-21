@@ -1,0 +1,14 @@
+﻿@using Challenge3.API.Models
+@{
+    ViewBag.Title = "Your Modules";
+}
+
+
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+<ul>
+    @foreach (var module in ViewBag.modules)
+    {
+        <li>@module.MacAddress</li>
+    }
+</ul>
